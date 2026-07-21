@@ -1,0 +1,58 @@
+{
+  "name": "@bangool/graph",
+  "version": "0.1.0",
+  "description": "Open-source TypeScript primitives for constructing and validating adaptive learning graphs.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build",
+    "prepare": "npm run build",
+    "prepack": "npm run check"
+  },
+  "keywords": [
+    "adaptive-learning",
+    "curriculum",
+    "education",
+    "knowledge-graph",
+    "mastery-learning",
+    "spaced-repetition",
+    "typescript"
+  ],
+  "author": "Ryan Brewer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanbrwr/bangool-graph.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanbrwr/bangool-graph/issues"
+  },
+  "homepage": "https://github.com/ryanbrwr/bangool-graph#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.2"
+  }
+}
