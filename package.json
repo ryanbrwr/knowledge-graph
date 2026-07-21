@@ -1,6 +1,6 @@
 {
-  "name": "@bangool/graph",
-  "version": "0.1.0",
+  "name": "@ryanbrewer/knowledge-graph",
+  "version": "0.2.0",
   "description": "Open-source TypeScript primitives for constructing and validating adaptive learning graphs.",
   "type": "module",
   "main": "./dist/index.js",
@@ -38,12 +38,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanbrwr/bangool-graph.git"
+    "url": "git+https://github.com/ryanbrwr/knowledge-graph.git"
   },
   "bugs": {
-    "url": "https://github.com/ryanbrwr/bangool-graph/issues"
+    "url": "https://github.com/ryanbrwr/knowledge-graph/issues"
   },
-  "homepage": "https://github.com/ryanbrwr/bangool-graph#readme",
+  "homepage": "https://github.com/ryanbrwr/knowledge-graph#readme",
   "engines": {
     "node": ">=20"
   },

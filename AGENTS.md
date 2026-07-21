@@ -1,11 +1,12 @@
 # Repository Instructions
 
-This repository is the domain-neutral graph kernel used by Bangool and other adaptive learning products.
+This repository is Ryan Brewer's domain-neutral graph kernel for adaptive learning products.
 
 ## Boundary
 
 - Keep the package independent of React, React Native, Expo, databases, model providers, and any specific curriculum.
-- Do not add Korean, TOPIK, Math Academy, or Bangool-specific values to the runtime model.
+- Do not add Korean, TOPIK, Math Academy, or product-specific values to the runtime model.
+- Math Academy's public writing informs the documented design principles, not package branding, copied content, or claims of implementation parity.
 - Represent course-specific levels, skills, node kinds, formats, and modalities as string identifiers supplied by consumers.
 - Keep public algorithms pure and deterministic. Persistence and agent orchestration belong in consuming applications.
 - Validate untrusted graph-authoring output at the package boundary before treating it as `GraphSeedPack`.
