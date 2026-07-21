@@ -10,10 +10,10 @@ Adaptive learning systems need more than a list of lessons. They need atomic ski
 
 ## Install
 
-The initial release is distributed from the public Git repository:
+The initial release is distributed as an immutable GitHub release artifact:
 
 ```sh
-npm install github:ryanbrwr/bangool-graph#v0.1.0
+npm install https://github.com/ryanbrwr/bangool-graph/releases/download/v0.1.0/bangool-graph-0.1.0.tgz
 ```
 
 ## Define A Graph
